@@ -633,7 +633,6 @@ textarea.form-control { resize: vertical; min-height: 80px; }
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Beautiful dark overlay over an elegant modern warehouse setup from Unsplash */
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(2, 6, 23, 0.94) 100%),
               url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
@@ -644,7 +643,6 @@ textarea.form-control { resize: vertical; min-height: 80px; }
   overflow: hidden;
 }
 
-/* Subtle, atmospheric ambient glows behind the card for extra depth */
 .login-page::before {
   content: '';
   position: absolute;
@@ -720,7 +718,6 @@ textarea.form-control { resize: vertical; min-height: 80px; }
   margin-bottom: 24px;
 }
 
-/* Make inner fields and text inside the login box compatible with dark glassmorphism */
 .login-box .form-label {
   color: #cbd5e1;
 }
