@@ -38,7 +38,7 @@ function navLink($href, $label, $icon, $currentPage, $currentDir, $page, $dir = 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="TCC Inventory System - Manage and track school assets">
   <title><?= clean($pageTitle ?? 'Dashboard') ?> &mdash; TCC Inventory</title>
-  <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css?v=1.0.2">
 </head>
 <body>
 <div class="app-layout">
